@@ -4,7 +4,7 @@
 To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
 
 ## 🧠 Algorithm
-1. Assign the string `"google"` to a variable.
+1. Assign the string to a variable.
 2. Reverse the string manually using slicing (`[::-1]`).
 3. Compare the original string with the reversed string.
    - If they are equal, print that the string is a palindrome.
@@ -12,9 +12,19 @@ To write a Python program to check whether the string `"google"` is a **palindro
 4. Execute the program.
 
 ## 🧾 Program
+```
+a = input()
+rev = a[::-1]
+if a == rev:
+    print("The entered string is palindrome")
+else:
+    print("The entered string is not palindrome")
+```
 
-Add code here
+## Output:
+![439303392-37a520cc-8193-4412-9175-8e9641a46eb6](https://github.com/user-attachments/assets/d7bed57c-e7c9-468d-8b77-0431768bfb30)
 
-## Output
 
-## Result
+## Result:
+Thus the program to check whether the string is a **palindrome** or not, without using built-in palindrome checking functions is executed successfully.
+
